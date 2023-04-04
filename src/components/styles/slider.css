@@ -1,0 +1,100 @@
+#slider {
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px 5px hsl(0, 0%, 76%);
+    background: rgb(255, 194, 120);
+	margin: 0 auto;
+}
+
+/* .slider ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;    
+} */
+
+/* .slider ul li  {
+	position: relative;
+	display: none;
+	height:350px;
+}
+
+.slider ul li img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+} */
+
+#slider #slider__fade{
+	
+	padding:3%;
+	
+	margin: 0 auto;
+}
+
+#slider #slider__fade img{
+	margin: 0 auto;
+	display: none;
+	max-width: auto;
+	max-height: 600px;
+	object-fit: cover;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px 3px hsl(0, 0%, 0%);
+    background: rgb(255, 194, 120);
+	aspect-ratio: 1;
+	object-position: center center;
+	
+}
+
+/* .slider ul li span {
+	position: absolute;
+	bottom: 0;
+	background: hsl(0, 1%, 72%, .1);
+	left: 0;
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+	color: #fff;
+} */
+#slider #slider__fade .slider__arrows{
+
+	top: 35%;
+	width:  100%;
+}
+#slider #slider__fade .slider__arrows .next {
+	font-size: 2rem;
+	right: 0;
+	position: absolute;
+	cursor: pointer;
+	width: 50px;
+	text-align: center;
+	margin-right: 40%;
+}    
+#slider #slider__fade .slider__arrows .back {
+	font-size: 2rem;
+	left: 0;
+	position: absolute;
+	cursor: pointer;
+	width: 50px;
+	text-align: center;
+	margin-left: 40%;
+}   
+#slider #slider__fade .slider__arrows .next:hover {
+	background: hsl(0, 0%, 25%);
+	color: hsl(113, 100%, 50%);
+}
+#slider #slider__fade .slider__arrows .back:hover {
+	background: hsl(0, 0%, 25%);
+	color: hsl(113, 100%, 50%);
+}
+
+/* slider animation */
+#slider #slider__fade img{
+	animation-name: fade;
+	animation-duration: 2.5s;
+
+}
+
+@keyframes fade {
+	from {opacity: .2} 
+	to {opacity: 1}
+}

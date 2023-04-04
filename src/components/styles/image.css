@@ -1,0 +1,57 @@
+
+
+.contain{
+	max-width: 100%;
+	width: 100%;
+	box-shadow: 5px 5px 5px 5px hsl(0, 0%, 76%);
+    background: rgb(255, 194, 120);
+}
+
+.contain .content{
+	padding-top: 3rem;
+	width: 100%;
+	margin:auto;
+	background: rgb(255, 194, 120);
+}
+
+.contain .content .content--grid{
+
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap:1rem;
+
+}
+.contain .content .content--grid .grid{
+		
+    background: rgb(255, 194, 120);
+	width: 100%;
+	max-width: 100%;
+	aspect-ratio: 1;
+	object-fit: cover;
+	object-position: center center;
+	
+	
+}
+.contain .content .content--grid button{
+	position: relative;
+	box-shadow: 3px 3px 3px 3px hsl(0, 0%, 0%);
+    background: rgb(255, 194, 120);
+	width: 100%;
+	max-width: 100%;
+	aspect-ratio: 1;
+	object-fit: cover;
+	object-position: center center;
+}
+
+.contain .fade1 {
+	margin: 0 auto;
+	display: none;
+	max-width: auto;
+	max-height: 50px;
+	object-fit: fill	;
+	border-radius: 50px;
+	box-shadow: 3px 3px 3px 3px hsl(0, 0%, 0%);
+    background: rgb(255, 194, 120);
+	aspect-ratio: 1;
+	object-position: center center;
+}
